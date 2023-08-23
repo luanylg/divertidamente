@@ -1,0 +1,24 @@
+//criar a base de dados
+Create DataBase Loja;
+Use Loja; 
+
+
+//Criar uma tabela
+Create table Fornecedores
+cnpj_ec DECIMAL
+razasocial_ec VARCHAR(14)
+inscEct_ec DECIMAL
+enderoco_ec VARCHAR(60)
+bairro_ec VARCHAR(30)
+cidade_ec VARCHAR(40)
+estado_ec VARCHAR(2)
+telefone_ec VARCHAR(20)
+email_ec VARCHAR(60)
+site_ec VARCHAR(50)
+
+Create table Produtos
+codigodeoproduto_ec INT
+descricao_ec VARCHAR(50)
+categoria_ec VARCHAR(30)
+clasificacao_ec VARCHAR(20)
+numeracao_ec VARCHAR(10)
